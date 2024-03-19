@@ -1,0 +1,77 @@
+body {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    color: navy;
+    background-color: whitesmoke;
+    max-width: 1080px;
+    min-width: 240px;
+    margin-left: 15%;
+}
+
+a {
+    color: maroon;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: navy;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+div img {
+    height: 250px;
+}
+
+/* input forms */
+form * {
+    display: inline-block;
+}
+
+label,
+input {
+    margin: 15px auto;
+}
+
+label {
+    width: 150px;
+}
+
+/* view cars table */
+#grid {
+    min-width: 60%;
+    max-width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#grid th,
+#grid td {
+    width: 25%;
+    font-size: 1em;
+    border: 1px solid navy;
+    padding: 10px 5px;
+}
+
+#grid th {
+    font-size: 1.1em;
+    text-align: left;
+    padding: 5px 0;
+    background-color: navy;
+    color: whitesmoke;
+}
+
+#grid .odd{
+    color: navy;
+    background-color: white;
+}
+
+#grid .even {
+    color: navy;
+    background-color: whitesmoke;
+}
