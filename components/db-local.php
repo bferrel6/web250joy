@@ -1,5 +1,5 @@
 <?php
-    $mysqli = new mysqli('127.0.0.1:3306', 'testuser', 'qAJ)Phl3FVleSgxg', 'u433082664_phpJoy');
+    $mysqli = new mysqli('localhost', 'testuser', 'qAJ)Phl3FVleSgxg', 'cars');
             
     //check connection
     if (mysqli_connect_errno()) {
@@ -10,6 +10,6 @@
     echo 'Connected successfully to MySQL. <br>';
 
     //select database to work with
-    $mysqli->select_db('u433082664_phpJoy');
+    $mysqli->select_db('cars');
     echo 'Selected the <em>cars</em> database. <br>';
 ?>
