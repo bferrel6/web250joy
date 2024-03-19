@@ -1,5 +1,5 @@
 <?php
-    $mysqli = new mysqli('localhost', 'u433082664_testuser', 'qAJ)Phl3FVleSgxg', 'u433082664_phpJoy', '3306');
+    $mysqli = new mysqli('localhost', 'u433082664_testuser', 'qAJ)Phl3FVleSgxg', 'u433082664_phpJoy');
             
     //check connection
     if (mysqli_connect_errno()) {

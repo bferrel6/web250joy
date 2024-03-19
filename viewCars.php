@@ -15,7 +15,7 @@
 
     echo "<h3>Auto Inventory</h3>";
 
-    $query = "SELECT * FROM INVENTORY";
+    $query = "SELECT * FROM inventory";
 
     //try to query the database
     if ($result = $mysqli->query($query)) {
