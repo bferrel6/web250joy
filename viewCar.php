@@ -66,7 +66,7 @@
         <input type="file" name="file" id="file"></br>
         <input type="submit" name="submit" value="Upload">
     </form>
-
+    
     <p><a href="viewCars.php">Return to Auto Inventory</a></p>
 </body>
 

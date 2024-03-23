@@ -1,28 +1,50 @@
+@charset "utf-8";
+
+:root {
+	--tangerine: #F27F0C;
+	--buttercup: #F7C45E; /* original f7ad19 */
+	--teal-blue: #053F5C;
+	--pelorous: #A9D5EF; /*original 429edb */
+	--sky-blue: #9FE7F5;
+}
+
 body {
-    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
-    color: navy;
-    background-color: whitesmoke;
+    font-family: 'Cambria', serif;
+    color: var(--buttercup);
+    background-color: var(--teal-blue);
     max-width: 1080px;
     min-width: 240px;
     margin-left: 15%;
 }
 
+h1, h3, h4 {
+	font-family: 'Eras Bold ITC', sans-serif;
+	color: var(--tangerine);
+}
+
 a {
-    color: maroon;
+    color: var(--sky-blue);
+}
+
+a:hover {
+	color:var(--teal-blue);
+	background-color: var(--pelorous);
 }
 
 nav {
-    display: flex;
-    justify-content: flex-start;
+	display: flex;
+	text-align: center;
 }
 
 nav a {
-    text-decoration: none;
-    color: whitesmoke;
-    background-color: navy;
-    padding: 5px 10px;
-    margin-right: 10px;
+	align-content: center;
+	text-decoration: none;
+	height: 2em;
+	width: 100%;
+	padding-top: 12px;
+	border-top: 2px solid var(--tangerine);
 }
+
 
 div img {
     height: 250px;
@@ -54,7 +76,7 @@ label {
 #grid td {
     width: 25%;
     font-size: 1em;
-    border: 1px solid navy;
+    border: 1px solid var(--tangerine);
     padding: 10px 5px;
 }
 
@@ -62,16 +84,16 @@ label {
     font-size: 1.1em;
     text-align: left;
     padding: 5px 0;
-    background-color: navy;
-    color: whitesmoke;
+    background-color: var(--tangerine);
+    color: gray;
 }
 
 #grid .odd{
-    color: navy;
-    background-color: white;
+    color: var(--teal-blue);
+    background-color: gray;
 }
 
 #grid .even {
-    color: navy;
-    background-color: whitesmoke;
+    color: var(--teal-blue);
+    background-color: var(--buttercup);
 }
