@@ -23,7 +23,7 @@ h1, h3, h4 {
 }
 
 a {
-    color: var(--sky-blue);
+    color: var(--tangerine);
 }
 
 a:hover {
@@ -85,12 +85,12 @@ label {
     text-align: left;
     padding: 5px 0;
     background-color: var(--tangerine);
-    color: gray;
+    color: whitesmoke;
 }
 
 #grid .odd{
     color: var(--teal-blue);
-    background-color: gray;
+    background-color: whitesmoke;
 }
 
 #grid .even {
